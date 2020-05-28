@@ -1,5 +1,7 @@
+
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -23,16 +25,78 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+ 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button__button___vS7Mv {
+  background-color:rgb(88,155,217)!important;
+  padding: none !important
+}
+
+span {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue' !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  color:white!important;
+}
+
+.card {
+  border-radius: 10px !important;
+}
+
+a {
+  color: #FFF;
+}
+a:hover {
+   color: pink;
+}
+
+.card-btn {
+  margin-top: 1rem !important; 
+}
+
+.notif {
+  text-align: left;
+  line-height: 3rem;
+}
+
+ul {
+  list-style-type: circle !important;
+}
+
+
+h5 {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-stuff {
+  color:rgb(88,155,217)!important;
+  justify-content: left !important;
+  font-size: 2.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue' !important;
+}
+
+.match-btn {
+  border:none;
+  background-color:rgb(88,155,217)!important;
+  margin-right: 3px;
+  padding-top: 11px;
+  padding-bottom: 19px;
+  letter-spacing: 1.1px;
+}
+
+.dalogo {
+  max-width: 40px;
+  position:fixed;
+  left:0;
+  margin-top: 10px;
+}
+
+.image-gallery-image {
+  max-width: 10rem;
 }
